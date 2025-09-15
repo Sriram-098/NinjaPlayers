@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Add this line 👇
   outputFileTracingRoot: __dirname,
   images: {
-    domains: ['res.cloudinary.com'], // Add your image host here
+    domains: ['res.cloudinary.com', 'lh3.googleusercontent.com'], // Add Google host
   },
-  // other config options here
 };
 
 export default nextConfig;
