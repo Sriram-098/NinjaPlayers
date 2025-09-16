@@ -7,4 +7,16 @@ const nextConfig: NextConfig = {
   },
 };
 
+module.exports = {
+  theme: {
+    extend: {
+      animation: {
+        'bounce-once': 'bounce 1s ease-in-out',
+      },
+    },
+  },
+  plugins: [],
+}
+
+
 export default nextConfig;
